@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: salmon;
+        }
+        p:hover{
+            color: skyblue;
+        }
+        div p:nth-child(2){
+            color: violet;
+        }
+        p::first-letter{
+            color: teal;
+        }
+        p::before{
+            content: "🦋";
+        }
+        ::placeholder{
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Platzi</p>
+        <p>master</p>
+        <p>lo mejor</p>
+    </div>
+    <input type="text" placeholder="name">
+</body>
+</html>
